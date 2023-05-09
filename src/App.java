@@ -13,8 +13,8 @@ public class App {
 
 
         LibraryUser polar = new UnverifiedUser("Polar");
-        VerifiedUser hopper = new VerifiedUser("Hopper");
-
+        LibraryUser hopper = new VerifiedUser("Hopper");
+        
         polar.borrowBook(library, "Bible"); // Polar borrowed 'Bible'.
         polar.borrowBook(library, "The Great Gatsby"); // Polar cannot check out any more books.
 

@@ -11,6 +11,11 @@ public class UnverifiedUser implements LibraryUser {
 		this.maxBooks = 1;
 	}
 
+	@Override
+	public void reserveBook(Library library, String title) {
+		System.out.println(this.name + " does not have reservation privileges");
+	}
+
 	public String getName() {
 		return this.name;
 	}

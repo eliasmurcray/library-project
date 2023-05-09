@@ -10,6 +10,7 @@ public class VerifiedUser extends UnverifiedUser {
 		return this.isVerified;
 	}
 
+	@Override
 	public void reserveBook(Library library, String title) {
 		Book book = library.searchBookByTitle(title);
 
